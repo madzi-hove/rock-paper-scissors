@@ -1,15 +1,13 @@
-// const container = document.querySelector(".container");
-// const scoreContainer = document.querySelector(".scores-container");
 const btnContainer = document.querySelector(".btn-container");
 const playerGameScore = document.querySelector(".player-score");
 const computerGameScore = document.querySelector(".computer-score");
 const message = document.querySelector(".message");
-const choices = ["rock", "paper", "scissors"];
+
 let playerCount = 0;
 let computerCount = 0;
 
-// let playerSelection;
 const getComputerChoice = () => {
+	const choices = ["rock", "paper", "scissors"];
 	const randomNumber = Math.floor(Math.random() * 3);
 	return choices[randomNumber];
 };
