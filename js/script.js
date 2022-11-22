@@ -49,7 +49,7 @@ const displayGameWinner = (playerScore, computerScore) => {
 		playerCount = 0;
 		computerCount = 0;
 		setTimeout(() => {
-			message.textContent = "Best of 5, Let's Play";
+			message.textContent = "Best of 5, Let's Play!!!";
 		}, 3000);
 	}
 };
@@ -71,7 +71,7 @@ const game = (playerSelection) => {
 };
 
 const playGame = () => {
-	message.textContent = "Best of 5, Let's Play";
+	message.textContent = "Best of 5, Let's Play!!!";
 	btnContainer.addEventListener("click", (e) => {
 		const playerChoice = e.target.id.toLowerCase();
 		game(playerChoice);
